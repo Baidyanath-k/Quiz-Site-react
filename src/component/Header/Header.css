@@ -6,9 +6,11 @@
     display: flex;
     justify-content: space-around;
     background-color: #222222;
-    padding: 12px 12px;
+    padding: 12px 0px;
+    width: 100%;
     position: sticky;
-    top: 0;
+    top: 0px;
+    overflow: hidden;
 }
 .nav-logo h2{
     color: #00EDA4;
@@ -23,4 +25,16 @@
 
 .active{
     border-bottom: 2px solid #00EDA4;
+}
+@media (min-width: 0px) and (max-width: 575px) {
+    .main-nav{
+        width: 100%;
+        display: block;
+        text-align: center;
+        overflow: hidden;
+
+    }
+    .nav-menu a{
+        font-size: 15px;
+    }
 }

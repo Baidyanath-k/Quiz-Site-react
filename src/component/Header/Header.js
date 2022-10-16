@@ -9,7 +9,7 @@ const Header = () => {
                 <h2>Quiz Show</h2>
             </div>
             <div className="nav-menu">
-                <NavLink className={ ({isActive})=> isActive? 'active' :undefined } to='/Home'>Home</NavLink>
+                <NavLink className={ ({isActive})=> isActive? 'active' :undefined } to='/'>Home</NavLink>
                 <NavLink className={ ({isActive})=> isActive? 'active' :undefined } to='/Topics'>Topics</NavLink>
                 <NavLink className={ ({isActive})=> isActive? 'active' :undefined } to='/Statics'>Statics</NavLink>
                 <NavLink className={ ({isActive})=> isActive? 'active' :undefined } to='/Blog'>Blog</NavLink>

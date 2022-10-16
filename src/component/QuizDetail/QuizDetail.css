@@ -9,3 +9,13 @@
     color: #00EDA4;
     font-size: 25px;
 }
+@media (min-width: 0px) and (max-width: 575px) {
+    .main-quiz-container{
+        padding: 50px 100px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .main-quiz-container{
+        padding: 50px 100px;
+    }
+}

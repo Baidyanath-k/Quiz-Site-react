@@ -1,11 +1,15 @@
 .quiz-display{
     border: 2px solid #1ACDA4;
-    /* padding: 8px 8px 0px 8px; */
+}
+.quiz-img{
+    width: 100%;
 }
 .quiz-img img{
-    width: 200px;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.555);
-    margin: 8px;
+    overflow: hidden;
+    
+    
 }
 .quiz-information{
     display: flex;
