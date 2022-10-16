@@ -1,4 +1,33 @@
+.quiz-display{
+    border: 2px solid #1ACDA4;
+    /* padding: 8px 8px 0px 8px; */
+}
 .quiz-img img{
     width: 200px;
     background-color: rgba(0, 0, 0, 0.555);
+    margin: 8px;
+}
+.quiz-information{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 5px;
+    background-color: rgba(0, 0, 0, 0.555);
+    color: #1ACDA4;
+}
+.quiz-button button{
+    display: block;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.555);
+    padding: 10px 0;
+    margin: 0;
+    border-top: 2px solid #1ACDA4;
+    cursor: pointer;
+
+}
+.quiz-button button a{
+    color: #1ACDA4;
+    text-decoration: none;
 }

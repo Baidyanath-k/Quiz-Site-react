@@ -1,0 +1,14 @@
+.main-home{
+    padding: 0px 60px;
+}
+.header-home{
+    background-color: #1ACDA4;
+    text-align: center;
+    padding: 15px 0;
+    margin: 20px 0;
+}
+.home-details{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}

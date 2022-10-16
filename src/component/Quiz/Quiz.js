@@ -1,9 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Quiz.css';
 
-const Quiz = ({qz}) => {
-    const {logo,name,total}=qz;
-    console.log(qz)
+const Quiz = ({qz,quizClickHandle}) => {
+    const {id,logo,name,total}=qz;
     return (
         <div className='quiz-display'>
             <div className="quiz-img">
@@ -14,10 +14,14 @@ const Quiz = ({qz}) => {
                 <h4>Total: {total}</h4>
             </div>
             <div className="quiz-button">
-                <button>Start Quiz</button>
+                <button>
+                    <Link to={`/Quize/${id}`}>Start Quiz</Link>
+                </button>
             </div>
         </div>
     );
 };
 
 export default Quiz;
+
+// 
