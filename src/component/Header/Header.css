@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #222222;
+    padding: 12px 12px;
+}
+.nav-logo h2{
+    color: #00EDA4;
+}
+.nav-menu a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #00EDA4;
+    margin-right: 15px;
+}
