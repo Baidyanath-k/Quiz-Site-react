@@ -1,5 +1,8 @@
 import React from 'react';
 import Options from '../Option/Options';
+import { FaEye } from "react-icons/fa";
+import './Questions.css';
+
 
 const Questions = ({qs}) => {
     
@@ -18,8 +21,16 @@ const Questions = ({qs}) => {
     }
     
     return (
-        <div>
-            <h2>{question}</h2>
+        <div className='main-question-container'>
+            <div className="main-question">
+                <h2>{question}</h2>
+                <button onClick={showCorrectAns}>
+                    <FaEye></FaEye>
+                </button>
+            </div>
+
+            <div className="main-option">
+
             {
                 options.map(op=> <Options 
                         key={op} 
@@ -27,7 +38,11 @@ const Questions = ({qs}) => {
                         selectCorrectAns={selectCorrectAns}
                     ></Options> )
             }
-            <button onClick={showCorrectAns}>Correct Ans</button>
+
+            </div>
+            
+            
+            
         </div>
     );
 };

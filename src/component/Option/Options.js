@@ -1,9 +1,10 @@
 import React from 'react';
+import './Options.css';
 
 const Options = ({op,selectCorrectAns}) => {
-    // console.log(op)
+    
     return (
-        <div>
+        <div className='options'>
             <p onClick={()=>selectCorrectAns(op)}>{op}</p>
         </div>
     );

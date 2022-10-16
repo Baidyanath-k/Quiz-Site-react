@@ -1,0 +1,16 @@
+.main-question-container{
+    border: 2px solid #00EDA4;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.main-question{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.main-question button{
+    border: none;
+    background: none;
+    font-size: 20px;
+    color: #00EDA4;
+}

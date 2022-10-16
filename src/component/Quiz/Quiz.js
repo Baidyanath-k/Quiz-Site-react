@@ -23,5 +23,3 @@ const Quiz = ({qz,quizClickHandle}) => {
 };
 
 export default Quiz;
-
-// 

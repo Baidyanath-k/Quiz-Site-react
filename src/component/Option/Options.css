@@ -1,0 +1,14 @@
+.options{
+    margin: 20px 0;
+    margin-left: 20px;
+}
+.options p{
+    font-size: 15px;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;
+}
+.options p:hover{
+   color:  #00EDA4;
+}

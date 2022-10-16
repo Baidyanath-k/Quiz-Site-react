@@ -1,0 +1,11 @@
+.main-quiz-container{
+    padding: 50px 200px;
+}
+.quiz-container-header{
+    text-align: center;
+    padding: 50px 0;
+}
+.quiz-container-header h2{
+    color: #00EDA4;
+    font-size: 25px;
+}
