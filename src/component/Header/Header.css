@@ -20,3 +20,7 @@
     color: #00EDA4;
     margin-right: 15px;
 }
+
+.active{
+    border-bottom: 2px solid #00EDA4;
+}
