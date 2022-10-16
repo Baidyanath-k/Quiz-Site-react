@@ -21,10 +21,12 @@ const Questions = ({qs}) => {
             toast.success("Right Answer",{
                 position: "top-center",
                 closeOnClick: false,
+                autoClose: 1000
             })
         }else{
             toast.error("Wrong Answer",{
                 position: "top-center",
+                autoClose: 1000
             })
         }
     }

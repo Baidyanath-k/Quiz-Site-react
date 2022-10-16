@@ -7,6 +7,8 @@
     justify-content: space-around;
     background-color: #222222;
     padding: 12px 12px;
+    position: sticky;
+    top: 0;
 }
 .nav-logo h2{
     color: #00EDA4;

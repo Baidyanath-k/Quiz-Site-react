@@ -1,0 +1,10 @@
+.blog-container{
+    padding: 20px 150px;
+}
+.react-router, .api{
+    margin-bottom: 20px;
+}
+.react-router p span, .api p span, .hook p span{
+    font-size: 20px;
+    font-weight: 800;
+}
