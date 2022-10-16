@@ -2,6 +2,8 @@ import React from 'react';
 import Options from '../Option/Options';
 import { FaEye } from "react-icons/fa";
 import './Questions.css';
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
 
 const Questions = ({qs}) => {
@@ -9,14 +11,21 @@ const Questions = ({qs}) => {
     const{question,options,correctAnswer}=qs;
     // console.log(correctAnswer);
     const showCorrectAns=()=>{
-        alert(correctAnswer)
+        toast.info(correctAnswer,{
+            position: "top-center",
+        })
     }
 
     const selectCorrectAns=(op)=>{
         if(op===correctAnswer){
-            alert("Right")
+            toast.success("Right Answer",{
+                position: "top-center",
+                closeOnClick: false,
+            })
         }else{
-            alert("This is rong")
+            toast.error("Wrong Answer",{
+                position: "top-center",
+            })
         }
     }
     
@@ -42,7 +51,7 @@ const Questions = ({qs}) => {
             </div>
             
             
-            
+            <ToastContainer />
         </div>
     );
 };
